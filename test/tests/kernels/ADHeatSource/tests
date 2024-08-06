@@ -1,0 +1,7 @@
+[Tests]
+  [test]
+    type = 'Exodiff'
+    input = 'simple_heat_source.i'
+    exodiff = 'simple_heat_source_out.e'
+  []
+[]

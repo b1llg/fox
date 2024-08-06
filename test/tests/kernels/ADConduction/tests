@@ -1,0 +1,7 @@
+[Tests]
+  [test]
+    type = 'Exodiff'
+    input = 'simple_conduction.i'
+    exodiff = 'simple_conduction_out.e'
+  []
+[]
