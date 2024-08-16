@@ -5,11 +5,11 @@
     ny = 10 # Number of elements in the y direction
     xmax = 1.0 # m - width of box
     ymax = 1.0 # m - height of box
-    elem_type = QUAD9
+    elem_type = QUAD8
 []
 [Variables]
     [temperature]
-        order = SECOND
+        order = FIRST
         family = LAGRANGE
     []
 []
