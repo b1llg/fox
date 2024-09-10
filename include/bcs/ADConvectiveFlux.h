@@ -1,6 +1,6 @@
 #pragma once
 
-#include "ADIntegratedBCS.h"
+#include "ADMatNeumannBC.h"
 
 class ADConvectiveFlux : public ADMatNeumannBC
 {

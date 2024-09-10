@@ -9,7 +9,7 @@ HTTimeDerivative::validParams()
 {
   InputParameters params = TimeDerivative::validParams();
     
-    params.addClassDescription("Computes the time derivative of temperature: $\\rho C_{p} \\dfrac{\partial T}{\partial t}$");
+    params.addClassDescription("Computes the time derivative of temperature: $\\rho C_{p} \\dfrac{\\partial T}{\\partial t}$");
 
     params.addRequiredParam<Real>("density", "density of the material kg/m3");
     params.addRequiredParam<Real>("thermal_capacity", "thermal capacity j/kgk");
